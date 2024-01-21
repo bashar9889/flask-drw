@@ -65,7 +65,7 @@ def predict():
         # Preprocess the input
         input_features = scaler.transform(input_df)
 
-
+        result = "Unavailable"
         # Preprocess the input
         #input_features = scaler.transform([[price, float(coordinates[0]), float(coordinates[1])]])
         
